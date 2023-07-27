@@ -19,7 +19,7 @@ const AllUser = () => {
   });
   // make admin
   const handleMakeAdmin = (user) => {
-    fetch(`http://localhost:5000/users/admin/${user._id}`, {
+    fetch(`http://localhost:8000/users/admin/${user._id}`, {
       method: "PATCH",
     })
       .then((response) => response.json())
@@ -32,7 +32,7 @@ const AllUser = () => {
   };
   // user delete
   const handleDeleteUser = (user) => {
-    fetch(`http://localhost:5000/users/${user._id}`, {
+    fetch(`http://localhost:8000/users/${user._id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
