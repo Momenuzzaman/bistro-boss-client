@@ -1,0 +1,6 @@
+.feature-section {
+  background-image: url("../../../assets/home/featured.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .drawer-side a.active {
+    @apply bg-transparent !important;
+  }
+  .dashboardNav {
+    @apply text-base font-medium hover:text-white;
+  }
+  .dashboardNavIcon {
+    @apply w-6 h-6;
+  }
+}
